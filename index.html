@@ -1,0 +1,306 @@
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> CodeWithPinaksh </title>
+
+    <link rel="shortcut icon" href="images/binary-code.png" />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+
+    <div id="nav-container" class="nav-container">
+      <div class="logo">
+          <a href="#"><img src="images/logo.png" alt="logo"></a>
+      </div>
+
+      <div class="navbar">
+        <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+
+        <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li><a class="nav-link active" href="#">Home</a></li>
+            <li><a class="nav-link" href="#video">Video</a></li>
+            <li><a class="nav-link" href="#skill">Skills</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+
+    <div class="hero-section">
+      <div class="hero-section-text">
+        <h1>Welcome To CodeWithPinaksh</h1>
+        <h5>Website For Developer</h5>
+      </div>
+    </div>
+
+
+    <div id="video" class="video">
+      <div class="video-header">
+        <h1>My Videos</h1>
+      </div>
+      <div class="video-container">
+        <div class="card">
+          <div class="card__header">
+            <a href="#video"><img src="images/android.jpeg" alt="card__image" class="card__image" width="600" /></a>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">Technology</span>
+            <h4>Android Development Part-1</h4>
+            <p>This is a video on android development guys !!!!!!!!!!!!!!!!!!!</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="images/profile_pic.jpeg" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Pinaksh Patel</h5>
+                <small>2h ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="https://www.youtube.com/watch?v=BqPXt7aK-6E"><img src="images/python.png" alt="card__image" class="card__image" width="600" /></a>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Technology</span>
+            <h4>Pyhton Loops | datacamp part-2/2</h4>
+            <p>Hey guys , in this video we have done loops in python. Basically for and while loops.</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="images/profile_pic.jpeg" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Pinaksh Patel</h5>
+                <small>Yesterday</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="https://www.youtube.com/watch?v=PITy2ukTHDQ"><img src="images/sql.png" alt="card__image" class="card__image" width="600" /></a>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Technology</span>
+            <h4>Aggregate Functions | Mimo | Part 3/4</h4>
+            <p>Hey guys, in this video we have learned aggregate functions in sql. we have done counting table rows table column and summing them up.</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="images/profile_pic.jpeg" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Pinaksh Patel</h5>
+                <small>4d ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="https://www.youtube.com/watch?v=K7AGEQg0dAA"><img src="images/html.png" alt="card__image" class="card__image" width="600" /></a>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-blue">Technology</span>
+            <h4>HTML Basics | Mimo | Part 1/4</h4>
+            <p>Hey guys, in this video we have learned html. we have made some web pages with the help of html tags headings etc.</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="images/profile_pic.jpeg" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Pinaksh Patel</h5>
+                <small>12h ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="https://www.youtube.com/watch?v=4pWKsQhUVPc"><img src="images/css.png" alt="card__image" class="card__image" width="600" /></a>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-brown">Technology</span>
+            <h4>CSS Classes | Mimo</h4>
+            <p>Hey guys, in this video we have learned css. we have used classes to style group of elements and discovered child elements.</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="images/profile_pic.jpeg" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Pinaksh Patel</h5>
+                <small>8d ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="https://www.youtube.com/watch?v=U6ss9AcKg80"><img src="images/js.png" alt="card__image" class="card__image" width="600" /></a>
+          </div>
+          <div class="card__body">
+            <span class="tag tag-red">Technology</span>
+            <h4>Object Expressions | Fundamental 1 | Grasshopper</h4>
+            <p>Hey guys, in this video we have learned javascript. we have made custom colors, name for yourself.</p>
+          </div>
+          <div class="card__footer">
+            <div class="user">
+              <img src="images/profile_pic.jpeg" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>Pinaksh Patel</h5>
+                <small>5d ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="skill" class="inner">
+      <div class="skill-header">
+        <h1>My Skills</h1>
+      </div>
+      <div class="skill-container">
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="skill-img">
+              <img src="images/002-html-5.png" class="skill-icon" />
+            </div>
+            <h3>HTML 5</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="skill-img">
+              <img src="images/005-css-3.png" class="skill-icon" />
+            </div>
+            <h3>CSS 3</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="skill-img">
+              <img src="images/004-js.png" class="skill-icon" />
+            </div>
+            <h3>JAVASCIPT</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="skill-img">
+              <img src="images/003-python.png" class="skill-icon" />
+            </div>
+            <h3>PYTHON</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="skill-img">
+              <img src="images/006-mysql.png" class="skill-icon" />
+            </div>
+            <h3>MYSQL</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="skill-img">
+              <img src="images/001-java.png" class="skill-icon" />
+            </div>
+            <h3>JAVA</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="about" class="about-section">
+  		<div class="about-container">
+  			<div class="content-section">
+  				<div class="title">
+  					<h1>About Us</h1>
+  				</div>
+  				<div class="content">
+  					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  					consequat.</p>
+  					<div class="button">
+  						<a href="">Read More</a>
+  					</div>
+  				</div>
+  				<div class="social">
+  					<a href="#"><i class="fab fa-facebook-f"></i></a>
+  					<a href="#"><i class="fab fa-twitter"></i></a>
+  					<a href="https://youtube.com/channel/UCiQIy8sqoqHNWhatricW-WQ"><i class="fab fa-youtube"></i></a>
+  				</div>
+  			</div>
+  			<div class="image-section">
+  				<img src="images/profile_pic.jpeg">
+  			</div>
+  		</div>
+    </div>
+
+    <center>
+      <h3 style="font-weight: 300;" class="made_by">Copyright &#169; 2022 CodeWithPinaksh.com</h3>
+    </center>
+
+
+    <script src="https://kit.fontawesome.com/033aa9342b.js" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
+
+  </body>
+</html>
